@@ -21,6 +21,16 @@
             bindings = <&kp PAGE_DOWN>;
             key-positions = <31 52 24>;
         };
+
+        PageUp {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <52 24 32>;
+        };
+
+        End {
+            bindings = <&kp END>;
+            key-positions = <52 24 33>;
+        };
     };
 
     keymap {
