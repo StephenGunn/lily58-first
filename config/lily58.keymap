@@ -31,6 +31,11 @@
             bindings = <&kp END>;
             key-positions = <52 24 33>;
         };
+
+        SaveSS {
+            bindings = <&kp LG(PRINTSCREEN)>;
+            key-positions = <43 52 24>;
+        };
     };
 
     keymap {
