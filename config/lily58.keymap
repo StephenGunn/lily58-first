@@ -69,16 +69,20 @@
 &kp UNDERSCORE  &trans                &trans                 &trans            &kp AT_SIGN        &kp PIPE       &kp PLUS    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                              &trans            &trans             &trans         &trans      &trans  &trans  &trans  &trans
             >;
+
+            label = "raise";
         };
 
         lower {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                             &kp F6          &kp F7             &kp F8            &kp F9            &kp F10        &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans                             &kp K_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP   &kp K_PLAY_PAUSE  &kp K_STOP     &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans                             &kp LEFT_ARROW  &kp DOWN           &kp UP_ARROW      &kp RIGHT         &kp LG(EQUAL)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp PRINTSCREEN  &kp LG(LEFT)    &kp LG(DOWN)       &kp LG(UP_ARROW)  &kp LG(RIGHT)     &kp LG(MINUS)  &trans
-                        &trans  &trans  &trans  &trans    &trans           &trans          &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                 &kp F6          &kp F7             &kp F8            &kp F9            &kp F10        &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans                                 &kp K_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP   &kp K_PLAY_PAUSE  &kp K_STOP     &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans                                 &kp LEFT_ARROW  &kp DOWN           &kp UP_ARROW      &kp RIGHT         &kp LG(EQUAL)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp PRINTSCREEN      &kp LG(LEFT)    &kp LG(DOWN)       &kp LG(UP_ARROW)  &kp LG(RIGHT)     &kp LG(MINUS)  &trans
+                        &trans  &trans  &trans  &trans    &kp LG(PRINTSCREEN)  &trans          &trans             &trans
             >;
+
+            label = "lower";
         };
 
         numbers {
@@ -89,6 +93,8 @@
 &none  &none  &none  &none  &none   &none  &trans    &trans  &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS      &kp PERIOD
                      &none  &trans  &none  &none     &trans  &none  &none            &kp KP_NUMBER_0
             >;
+
+            label = "calc";
         };
 
         nav {
@@ -109,6 +115,8 @@
 &trans  &trans        &trans        &trans        &trans        &trans        &bt BT_CLR    &bt BT_CLR_ALL  &trans       &trans  &trans  &trans  &trans  &trans
                                     &trans        &trans        &trans        &bt BT_NXT    &bt BT_PRV      &trans       &trans  &trans
             >;
+
+            label = "config";
         };
     };
 };
