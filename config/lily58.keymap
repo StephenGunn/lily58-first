@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Home {
+            bindings = <&kp HOME>;
+            key-positions = <52 24 30>;
+        };
+
+        PageDown {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <31 52 24>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
