@@ -36,11 +36,11 @@
 
         raise {
             bindings = <
-&trans  &kp F1     &kp F2            &kp F3                &kp F4          &kp F5                             &trans          &trans           &trans                 &trans             &trans  &trans
-&trans  &kp GRAVE  &kp TILDE         &kp PIPE              &kp AMPERSAND   &kp EQUAL                          &trans          &trans           &trans                 &trans             &trans  &trans
-&trans  &trans     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LS(COMMA)                      &kp RS(PERIOD)  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans     &trans            &trans                &kp BACKSLASH   &kp MINUS      &kp PLUS    &trans  &trans          &trans           &trans                 &trans             &trans  &trans
-                                     &trans                &trans          &trans         &trans      &trans  &trans          &trans           &trans
+&trans      &kp F1     &kp F2            &kp F3                &kp F4          &kp F5                             &trans          &trans           &trans                 &trans             &trans  &trans
+&trans      &kp GRAVE  &kp TILDE         &kp PIPE              &kp AMPERSAND   &kp EQUAL                          &trans          &trans           &trans                 &trans             &trans  &trans
+&trans      &kp UNDER  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LS(COMMA)                      &kp RS(PERIOD)  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans
+&caps_word  &trans     &trans            &trans                &kp BACKSLASH   &kp MINUS      &kp PLUS    &trans  &trans          &trans           &trans                 &trans             &trans  &trans
+                                         &trans                &trans          &trans         &trans      &trans  &trans          &trans           &trans
             >;
 
             label = "raise";
