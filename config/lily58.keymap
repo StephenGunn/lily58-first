@@ -9,34 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Home {
-            bindings = <&kp HOME>;
-            key-positions = <52 24 30>;
-        };
-
-        PageDown {
-            bindings = <&kp PAGE_DOWN>;
-            key-positions = <31 52 24>;
-        };
-
-        PageUp {
-            bindings = <&kp PAGE_UP>;
-            key-positions = <52 24 32>;
-        };
-
-        End {
-            bindings = <&kp END>;
-            key-positions = <52 24 33>;
-        };
-
-        SaveSS {
-            bindings = <&kp LG(PRINTSCREEN)>;
-            key-positions = <43 52 24>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -63,11 +36,11 @@
 
         raise {
             bindings = <
-&kp MINUS  &kp F1                &kp F2                 &kp F3            &kp F4             &kp F5                             &trans  &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GT             &kp EQUAL                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans                &trans                 &trans            &kp BACKSLASH      &kp PIPE       &kp PLUS    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                        &trans            &trans             &trans         &trans      &trans  &trans  &trans  &trans
+&kp TILDE  &kp F1          &kp F2            &kp F3                &kp F4          &kp F5                             &trans          &trans           &trans                 &trans             &trans  &trans
+&kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE              &kp AMPERSAND   &kp EQUAL                          &trans          &trans           &trans                 &trans             &trans  &trans
+&trans     &trans          &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LS(COMMA)                      &kp RS(PERIOD)  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans
+&trans     &trans          &trans            &trans                &kp BACKSLASH   &kp MINUS      &kp PLUS    &trans  &trans          &trans           &trans                 &trans             &trans  &trans
+                                             &trans                &trans          &trans         &trans      &trans  &trans          &trans           &trans
             >;
 
             label = "raise";
@@ -75,11 +48,11 @@
 
         heart {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans         &trans     &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans         &trans     &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans         &trans     &trans   &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans    &trans         &trans
             >;
 
             label = "heart";
@@ -89,7 +62,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                 &kp F6          &kp F7             &kp F8            &kp F9            &kp F10        &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans                                 &kp K_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP   &kp K_PLAY_PAUSE  &kp K_STOP     &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans                                 &kp LEFT_ARROW  &kp DOWN           &kp UP_ARROW      &kp RIGHT         &kp LG(EQUAL)  &trans
+&mo 2   &trans  &trans  &trans  &trans  &trans                                 &kp LEFT_ARROW  &kp DOWN           &kp UP_ARROW      &kp RIGHT         &kp LG(EQUAL)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp PRINTSCREEN      &kp LG(LEFT)    &kp LG(DOWN)       &kp LG(UP_ARROW)  &kp LG(RIGHT)     &kp LG(MINUS)  &trans
                         &trans  &trans  &trans  &trans    &kp LG(PRINTSCREEN)  &trans          &trans             &trans
             >;
