@@ -104,11 +104,11 @@
 
         symbols {
             bindings = <
-&kp PLUS  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp DOLLAR     &kp PERCENT                                          &kp CARET       &kp AMPERSAND         &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans    &trans           &kp CARET    &kp ASTERISK   &kp DOLLAR     &kp EXCLAMATION                                      &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION          &trans                 &trans
-&trans    &kp PIPE         &kp PERCENT  &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN                                     &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN           &kp HASH               &trans
-&trans    &trans           &trans       &trans         &kp AMPERSAND  &kp TILDE         &kp NON_US_BACKSLASH    &kp SLASH  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                &trans                 &trans
-                                        &trans         &trans         &trans            &trans                  &trans     &trans          &trans                &trans
+&kp PLUS  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp DOLLAR     &kp PERCENT                                   &kp CARET       &kp AMPERSAND         &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans    &trans           &kp CARET    &kp ASTERISK   &kp DOLLAR     &kp EXCLAMATION                               &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION          &trans                 &trans
+&trans    &kp PIPE         &kp PERCENT  &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN                              &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN           &kp HASH               &trans
+&trans    &trans           &trans       &trans         &kp AMPERSAND  &kp TILDE         &kp BACKSLASH    &kp SLASH  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                &trans                 &trans
+                                        &trans         &trans         &trans            &trans           &trans     &trans          &trans                &trans
             >;
 
             label = "symbols";
