@@ -178,7 +178,7 @@
 &trans  &trans     &trans       &trans             &trans         &trans                              &trans          &trans                &trans                 &trans        &trans     &trans
 &trans  &kp GRAVE  &kp CARET    &kp ASTERISK       &kp DOLLAR     &kp EXCLAMATION                     &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &kp SQT    &trans
 &trans  &kp PIPE   &kp PERCENT  &kp LESS_THAN      &kp EQUAL      &kp GREATER_THAN                    &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN   &kp COLON  &trans
-&trans  &trans     &trans       &kp DOUBLE_QUOTES  &kp AMPERSAND  &kp TILDE         &trans    &trans  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans     &trans
+&trans  &trans     &trans       &kp DOUBLE_QUOTES  &kp AMPERSAND  &kp TILDE         &trans    &trans  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &kp SLASH  &trans
                                 &trans             &trans         &trans            &trans    &trans  &trans          &trans                &trans
             >;
 
