@@ -12,19 +12,29 @@
     combos {
         compatible = "zmk,combos";
 
-        rightEscape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <10 11>;
+        copy_ss {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <21 22>;
         };
 
-        leftEscape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
         };
 
         hr_esc {
             bindings = <&kp ESCAPE>;
             key-positions = <28 27>;
+        };
+
+        tab_back {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <14 13>;
+        };
+
+        save_ss {
+            bindings = <&kp LS(PRINTSCREEN)>;
+            key-positions = <22 34>;
         };
     };
 
